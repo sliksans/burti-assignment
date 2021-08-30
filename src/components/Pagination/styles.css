@@ -1,0 +1,61 @@
+.pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 30px;
+  width: 90px;
+  opacity: 0.8;
+  margin: 20px 0;
+  font-size: 20px;
+  user-select: none;
+}
+
+.left-arrow {
+  height: 25px;
+  width: 25px;
+  position: relative;
+  transition: all 0.15s ease;
+  opacity: 0.45;
+  top: 3px;
+  transform: rotate(90deg)
+}
+
+.left-arrow-disabled {
+  height: 25px;
+  width: 25px;
+  position: relative;
+  transition: all 0.15s ease;
+  opacity: 0.15;
+  top: 3px;
+  transform: rotate(90deg)
+}
+
+.right-arrow {
+  position: relative;
+  height: 25px;
+  width: 25px;
+  transition: all 0.15s ease;
+  opacity: 0.45;
+  top: 3px;
+  transform: rotate(-90deg)
+}
+
+.right-arrow-disabled {
+  position: relative;
+  height: 25px;
+  width: 25px;
+  transition: all 0.15s ease;
+  opacity: 0.15;
+  top: 3px;
+  transform: rotate(-90deg)
+}
+
+.left-arrow:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.right-arrow:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
